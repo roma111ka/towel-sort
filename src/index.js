@@ -2,7 +2,7 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  if (matrix.length === 0||arguments.length === "undefined") {
+  if (typeof matrix === "undefined") {
     return [];
   }
   let towelSortarr = [];
